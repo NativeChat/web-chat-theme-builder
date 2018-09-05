@@ -1,6 +1,6 @@
 This project helps you build a custom theme for NativeChat webchat.
 
-## Prerequsites 
+## Prerequisites 
 
 You need to have node.js and git installed locally.
 
@@ -17,7 +17,7 @@ You need to have node.js and git installed locally.
 1. Open the `variables.scss` file and copy its contents
 1. Find the `public/scss/_custom.scss` file in this repo and paste the contents of variables.scss, overwriting its current contents
 1. Run the `npm run build` command
-1. Find the genererated CSS file in `build/static/css` folder
+1. Find the generated CSS file in `build/static/css` folder
 1. Save the generated CSS file somewhere on your website
 1. Configure the webchat by adding the following Setting:
 
