@@ -1,17 +1,16 @@
-// Your custom sass theme variables
 @import "custom";
-
-// Kendo UI Bootstrap theme variables
 @import "@progress/kendo-theme-bootstrap/scss/variables";
 
 // Dependencies
 @import "@progress/kendo-theme-bootstrap/scss/mixins";
 @import "@progress/kendo-theme-bootstrap/scss/common/all";
+@import "@progress/kendo-theme-bootstrap/scss/ripple";
 @import "@progress/kendo-theme-bootstrap/scss/popup";
 
 
 // Data management
 @import "@progress/kendo-theme-bootstrap/scss/pager";
+@import "@progress/kendo-theme-bootstrap/scss/grid";
 @import "@progress/kendo-theme-bootstrap/scss/listview";
 @import "@progress/kendo-theme-bootstrap/scss/scrollview";
 
@@ -24,6 +23,7 @@
 @import "@progress/kendo-theme-bootstrap/scss/input";
 @import "@progress/kendo-theme-bootstrap/scss/multiselect";
 @import "@progress/kendo-theme-bootstrap/scss/numerictextbox";
+@import "@progress/kendo-theme-bootstrap/scss/slider";
 @import "@progress/kendo-theme-bootstrap/scss/upload";
 @import "@progress/kendo-theme-bootstrap/scss/validator";
 @import "@progress/kendo-theme-bootstrap/scss/switch";
@@ -33,9 +33,11 @@
 // Dataviz
 @import "@progress/kendo-theme-bootstrap/scss/map";
 
-
 // Scheduling
 @import "@progress/kendo-theme-bootstrap/scss/calendar";
+
+// Media
+@import "@progress/kendo-theme-bootstrap/scss/mediaplayer";
 
 // Layout
 @import "@progress/kendo-theme-bootstrap/scss/dialog";
@@ -45,7 +47,6 @@
 @import "@progress/kendo-theme-bootstrap/scss/tooltip";
 @import "@progress/kendo-theme-bootstrap/scss/window";
 
-
 // Navigation
 @import "@progress/kendo-theme-bootstrap/scss/button";
 @import "@progress/kendo-theme-bootstrap/scss/menu";
@@ -53,17 +54,14 @@
 @import "@progress/kendo-theme-bootstrap/scss/tabstrip";
 @import "@progress/kendo-theme-bootstrap/scss/toolbar";
 
-
-// Interactivity and UX
+// Interactivity & UX
 @import "@progress/kendo-theme-bootstrap/scss/progressbar";
 @import "@progress/kendo-theme-bootstrap/scss/scroller";
 
-
-// Styling and Content
+// Styling & Content
 @import "@progress/kendo-theme-bootstrap/scss/styling";
 @import "@progress/kendo-theme-bootstrap/scss/badge";
 @import "@progress/kendo-theme-bootstrap/scss/card";
-
 
 // Chat
 @import "@progress/kendo-theme-bootstrap/scss/chat";
